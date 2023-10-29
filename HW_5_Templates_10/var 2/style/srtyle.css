@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',
+        sans-serif;
+    font-family: 'Oswald',
+        sans-serif;
+}
+
+.first_section {
+    width: 100%;
+    background-image: url(/media/Rectangle.svg);
+
+}
+
+.first_section>h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 192px;
+
+    max-width: 38%;
+    color: white;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.first_section>p {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    max-width: 38%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.parent_26 {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 130px;
+    max-width: 58%;
+    margin: 0 auto;
+}
+
+.parent_26>div {
+    text-align: center;
+}
+
+.parent_26>div>h3 {
+    color: var(--Accent, #F7654A);
+    /* text-align: center; */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.parent_26>div>h4 {
+    color: #000;
+    /* text-align: center; */
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.parent_26>div>h5 {
+    color: var(--gray, #999);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* padding и border уходят внутрь элементов */
+}
+
+.title {
+  color: #202020;
+  font-family: Ubuntu;
+  font-size: 24px;
+
+  font-weight: 700;
+  display: inline;
+}
+.logo {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+}
+ul {
+  list-style: none;
+  color: #202020;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.batton_1 {
+  border: none;
+  border-radius: 5px;
+  background: #5528ff;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 14px;
+
+  font-weight: 700;
+
+  width: 100px;
+  height: 24px;
+  flex-shrink: 0;
+  /* margin: 2.5 13 4.5 14; */
+  padding: 2.5 13 4.5 14;
+}
+/* li{ */
+/* margin:0 0 15px 30px; */
+/* margin:26px  0 0 37px;
+
+    text-align: center;
+    align-items: center;
+
+
+} */
+h1 {
+  border: 0;
+  text-align: center;
+}
+.main-header {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 53px 0 0 0; */
+  /* padding: 53px 369px 0 370px; */
+  /* max-width: 1920px; */
+  max-width: 62%;
+  /* max-width - максимальная ширина */
+  margin: 0 auto;
+  /* padding:  0 0 0 19%; */
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.nav-container > li {
+  /* gap: 37px; */
+  text-align: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+footer {
+  /* display: flex; */
+  /* justify-content:space-between; */
+  background-color: #f7f7f7;
+  /* margin: 2234px 0 0 0 */
+}
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px 371px 20px 386px; */
+  /* padding: 20px 0 20px 0; */
+  /* padding: 20px 369px 20px 370px; */
+  /* max-width: 1920px; */
+  max-width: 62%;
+
+  /* max-width - максимальная ширина */
+  margin: 100px auto;
+  /* background-color: #F7F7F7; */
+}
+.logo-container-footer {
+  display: flex;
+  align-items: center;
+}
+.logo-footer {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.social-container-footer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+/* .social-1 {
+  width: 24px;
+  height: 28px;
+}
+.social-2 {
+  width: 27px;
+  height: 24px;
+}
+.social-3 {
+  width: 21px;
+  height: 24px;
+}
+.social-4 {
+  width: 24px;
+  height: 24px;
+} */
+
+.we {
+  border: 0;
+  /* text-align: center; */
+  /* padding: 117px 0 35px 0; */
+  /* padding: 117px 0 35px 0; */
+  /* padding: 53px 369px 0 370px; */
+
+  /* max-width: 1920px; */
+  max-width: 62%;
+
+  /* color: #202020;
+text-align: center;
+font-family: Ubuntu;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; */
+  margin: 0 auto;
+}
+
+.we > h2 {
+  padding: 117px 0 35px 0;
+  color: #202020;
+  /* text-align: center; */
+  font-family: Ubuntu;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-we {
+  /* display: flex;
+    justify-content:space-between; */
+
+  align-items: center;
+  text-align: left;
+  /* padding: 0 0 0 370px; */
+  /* max-width: 1920px; */
+  max-width: 60%;
+  /* width: 741px; */
+  /* height: 196px; */
+  color: #4f4f4f;
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.86%;
+  text-align: left;
+}
+
+.batton_2 {
+  border: none;
+  border-radius: 10px;
+  background: #5528ff;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 24px;
+
+  font-weight: 400;
+
+  width: 235px;
+  height: 60px;
+  flex-shrink: 0;
+  /* margin: 2.5 13 4.5 14; */
+  padding: 16 58 11 58;
+  margin: 70px 0 100px 0;
+}
+
+/* .line{
+     display: flex;
+    justify-content:space-between;
+
+    align-items: center;
+    max-width: 1920px;
+   margin: 0 auto;
+   padding: 0 0 100px 0;
+}
+.line-1{
+    background-color: #C2C2C2;
+    width: 350px;
+height: 0.5px;
+}
+.line-2{
+    background-color: #C2C2C2;
+    width: 1420px;
+height: 0.5px;
+}
+.text-line{
+    margin: 0 15px 1px 15px;
+    color: #C2C2C2;
+font-family: Ubuntu;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+} */
+
+/* ПОЛОСКА  */
+
+.line-our-services {
+  position: relative;
+  height: 108.5px;
+  width: 100%;
+  border-top: 0.5px solid #c2c2c2;
+  margin: 0 auto;
+}
+
+.line-our-services::before {
+  position: absolute;
+  color: #c2c2c2;
+  content: "OUR SERVICES";
+  background-color: white;
+  top: -12px;
+  left: 350px;
+  padding: 0 39px 0 19px;
+}
+
+.line-our-clients {
+  position: relative;
+  height: 108.5px;
+  width: 100%;
+
+  border-top: 0.5px solid #c2c2c2;
+
+  margin: 0 auto;
+}
+
+.line-our-clients::before {
+  position: absolute;
+  color: #c2c2c2;
+  content: "OUR CLIENTS";
+  background-color: white;
+  top: -12px;
+  left: 350px;
+  padding: 0 39px 0 19px;
+}
+
+.line-our-team {
+    position: relative;
+    height: 108.5px;
+    width: 100%;
+    border-top: 0.5px solid #c2c2c2;
+    margin: 0 auto;
+  }
+  
+  .line-our-team::before {
+    position: absolute;
+    color: #c2c2c2;
+    content: "OUR TEAM";
+    background-color: white;
+    top: -12px;
+    left: 350px;
+    padding: 0 39px 0 19px;
+  }
+
+
+/* ----------------------- */
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1920px; */
+  max-width: 62%;
+
+  margin: 0 auto;
+  /* padding: 0 0 104px 0; */
+  flex-wrap: wrap;
+}
+.services > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 100px 0;
+}
+.services img {
+  margin: 0 60px 0 60px;
+  align-items: center;
+  width: 80px;
+  height: 60px;
+}
+.services h3 {
+  color: #000;
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 17px 0;
+}
+
+.services p {
+  color: #b2b2b2;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 300px;
+}
+
+/* ----------------------- */
+
+.clients{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    /* max-width: 1920px; */
+    max-width: 62%;
+
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 0 85px 0;
+
+}
+
+/* .clients > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.clients img {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 85px 35px 85px;
+    align-items: center;
+    width: 183px;
+    height: 54px;
+}
+
+
+  /* ----------------------- */
+
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1920px; */
+    max-width: 62%;
+
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .team > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px 60px 0;
+  }
+  .team img {
+    margin: 0 35px 0 0;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .teams h3 {
+    color: #202020;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+     }
+  
+  .team p {
+    color: #B2B2B2;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 11px 0 0 0;
+    }
+  
+  /* ----------------------- */
