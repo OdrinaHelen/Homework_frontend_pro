@@ -225,9 +225,13 @@ divMail.append(h3Mail)
 const footer = document.createElement('footer')
 root.append(footer)
 
+const divFooter = document.createElement('div')
+// divFooter.classList(footer_container)
+footer.append(divFooter)
+
 
 const div1Footer = document.createElement('div')
-footer.append(div1Footer)
+divFooter.append(div1Footer)
 
 const p1Footer = document.createElement('p')
 div1Footer.append(p1Footer)
@@ -235,7 +239,7 @@ p1Footer.innerText = '© 2019 Строительная компания'
 
 
 const div2Footer = document.createElement('div')
-footer.append(div2Footer)
+divFooter.append(div2Footer)
 
 const p2Footer = document.createElement('p')
 div2Footer.append(p2Footer)
