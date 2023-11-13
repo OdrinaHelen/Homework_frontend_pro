@@ -339,12 +339,24 @@ footer {
     width: 100%;
     height: 82px;
     background-color: #404149;
-    margin-bottom: 150px;
+
+
+}
+
+footer>div {
+
+    /* margin-bottom: 150px; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+
     margin: 0 auto;
-    gap: 830px;
     align-items: center;
+    max-width: 58%;
+}
+
+footer div {
+    align-items: center;
+    /* ПОЧЕМУ НЕ ВЫРАВНИВАЕТСЯ ПОСРЕДИНЕ ФУТТЕРА ПО ВЕРТИКАЛЬНОЙ ОСИ?? */
 }
 
 footer p {
@@ -354,6 +366,8 @@ footer p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    align-items: center;
+
 }
 
 @media screen and (max-width: 800px) {
