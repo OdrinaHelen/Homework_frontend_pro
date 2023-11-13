@@ -16,11 +16,9 @@
     justify-content: end;
     align-items: center;
     /* flex-wrap: wrap; */
-
-
-
-
+    background-size: 100%;
 }
+
 
 .first_section>h1 {
     /* display: flex;
@@ -124,12 +122,18 @@
 }
 
 .arena {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     max-width: 58%;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     align-items: center;
     margin: 0 auto;
     gap: 30px;
+}
+
+.arena-div {
+    width: 350px;
 }
 
 .line {
@@ -232,13 +236,15 @@
 }
 
 .div-bilding-contayner {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* display: flex;
+    justify-content: space-between; */
     max-width: 58%;
     /* align-items: center; */
     margin: 0 auto;
     gap: 30px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 
@@ -274,12 +280,14 @@ margin: 0 auto;
 
 /* ------------------------------ */
 .div_contacts_container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    /* display: flex;
+    justify-content: space-between; */
     max-width: 58%;
     margin: 0 auto;
     gap: 30px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 
@@ -312,7 +320,9 @@ margin: 0 auto;
 }
 
 .h3_contacts_content {
-    width: 180px;
+    text-align: center;
+
+
     color: #000;
 
     text-align: center;
@@ -344,4 +354,64 @@ footer p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media screen and (max-width: 800px) {
+    .parent_26 {
+
+        padding: 57px 80px;
+        max-width: 30%;
+    }
+
+    .first_section>h1 {
+        padding-top: 100px;
+        max-width: 70%;
+        color: white;
+        font-size: 30px;
+    }
+
+    .parent_26>div>h3 {
+        color: var(--Accent, #F7654A);
+        /* text-align: center; */
+        font-size: 30px;
+
+    }
+
+    .parent_26>div>h4 {
+        color: #000;
+        /* text-align: center; */
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .parent_26>div>h5 {
+        font-size: 16px;
+    }
+
+    .divThirdSection h2 {
+        font-size: 25px;
+        width: 300px;
+
+    }
+
+    .divThirdSection h3 {
+
+        font-size: 12px;
+
+        width: 300px;
+
+    }
+
+    .divThirdSection button {
+
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.7px;
+        padding: 5px 20px;
+    }
 }
